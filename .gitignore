@@ -1,0 +1,25 @@
+# ===== Rust / Cargo =====
+# ビルド成果物（ワークスペース共通）
+/target/
+
+# rustfmt が作るバックアップファイル
+**/*.rs.bk
+
+# Windows でビルドしたときのデバッグ情報
+*.pdb
+
+# ===== macOS =====
+.DS_Store
+._*
+
+# ===== エディタ / IDE =====
+# VS Code：個人設定は除外し、推奨拡張機能の設定だけ共有
+.vscode/*
+!.vscode/extensions.json
+
+# JetBrains（RustRover など）
+.idea/
+
+# ===== その他 =====
+# 環境変数ファイル（Web API 用）
+.env
