@@ -17,7 +17,7 @@ Rust公式チュートリアル「[The Rust Programming Language](https://doc.ru
 
 1. 下の対応表で、該当するThe Bookの章（[日本語版](https://doc.rust-jp.rs/book-ja/)）を読む
 2. 各章フォルダの `README.md` の問題を解く
-3. 解き終わったら `ANSWERS.md` の解説を読む
+3. 解き終わったら `ANSWERS.md` の解説と `examples/` の解答例を確認する
 
 ```bash
 git clone https://github.com/knhnd/rust-workbook.git
@@ -25,7 +25,13 @@ cd rust-workbook
 
 # 問題を実行する（問題によってはわざとコンパイルエラーになる）
 cargo run -p ch01 --bin q1_shadowing
+
+# 解答例を実行する
+cargo run -p ch01 --example q1_shadowing
 ```
+
+> [!TIP]
+> 問題ファイルの一部は、わざとコンパイルエラーの状態で置いている。VS Code などでファイル名が赤く表示されるのは正常。
 
 ## 構成
 
@@ -35,7 +41,8 @@ rust-workbook/
 └── chXX/
     ├── README.md           # 問題文・ヒント
     ├── ANSWERS.md          # 解説（解いた後に読むメモや解説）
-    └── src/bin/qN_名前.rs  # 問題ファイル（1ファイル＝1つの実行ファイル）
+    ├── src/bin/qN_名前.rs  # 問題ファイル（1ファイル＝1つの実行ファイル）
+    └── examples/qN_名前.rs # 解答例
 ```
 
 ## 章立てと進捗
@@ -44,7 +51,7 @@ rust-workbook/
 
 | 章 | テーマ | The Book（英語版の章番号） | 問題 | 解説 |
 |---|---|---|---|---|
-| [ch01](./ch01/) | 基本文法 | 1〜3 | 🚧 | 🚧 |
+| [ch01](./ch01/) | 基本文法 | 1〜3 | ✅ | ✅ |
 | ch02 | 所有権と借用 | 4 | | |
 | ch03 | 構造体とEnum・パターンマッチ | 5〜6 | | |
 | ch04 | モジュールとコレクション | 7〜8 | | |
