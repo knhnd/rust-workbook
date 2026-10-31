@@ -1,15 +1,17 @@
-# Rust Workbook — The Book 準拠の学習ノート兼問題集
+# Rust Workbook
 
-Rust公式チュートリアル「[The Rust Programming Language](https://doc.rust-lang.org/book/)」（通称 The Book）に準拠した、手を動かして理解を確かめるための問題集。普段 Python / TypeScript を使っている人が、Rustでつまずきやすいポイントを中心に Claude を活用して問題を作っています。
+#### The Book 準拠の学習ノート兼問題集
+
+Rust公式チュートリアル「[The Rust Programming Language](https://doc.rust-lang.org/book/)」（通称 The Book）に準拠した、手を動かして理解を確かめるための問題集。Python / TypeScript を普段使いしている人が Rust でつまずきやすそうなポイントをまとめて問題を作成。問題や解説は Claude を活用して作成しています。
 
 > [!NOTE]
 > これは作者自身がRustを学びながら作っている「学習ノート兼問題集」です。誤りを見つけたら Issue で教えてください。
 
 ## 特徴
 
-- **The Bookに準拠、ただし同じではない構成**：複数の章をまとめたり、他の教材の演習を加えたりしています。章番号はThe Bookと一致しません（下の対応表を参照）。
-- **Python / TS との比較つき**：「Pythonならこう、TSならこう、Rustでは…」という観点の解説。
-- **実際につまずいた記録**：解説の「よくある間違い」は、初心者がハマりやすいと思ったポイント。
+- **The Bookに準拠、ただし同じではない構成**：複数の章をまとめたり、他の教材の演習を加えたりしています。章番号はThe Bookと一致しない（下の対応表を参照）
+- **Python / TS との比較つき**：「Pythonならこう、TSならこう、Rustでは…」という観点の解説
+- **実際につまずいた記録**：解説の「よくある間違い」は、初心者がハマりやすいと思ったポイント
 
 ## 使い方
 
@@ -56,9 +58,13 @@ rust-workbook/
 | ch12 | 高度な機能 | 20 | | |
 | ch13 | 最終プロジェクト：Webサーバ | 21 | | |
 
-※ The Bookの章番号は英語版に合わせている。日本語版は更新が遅れることがあり、番号がずれる場合あり。
+※ The Bookの章番号は英語版に準拠
 
 ## 動作環境
 
 - Rust 1.85 以降（Rust 2024 エディション）
 - VSCode を使う場合は、推奨拡張機能の [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) がおすすめ
+
+## 参考文献
+- [Rustlings](https://rustlings.rust-lang.org/)
+- [The Rust Programming Language - Brown University](https://rust-book.cs.brown.edu/)
