@@ -2,14 +2,14 @@
 
 #### The Book 準拠の学習ノート兼問題集
 
-Rust公式チュートリアル「[The Rust Programming Language](https://doc.rust-lang.org/book/)」（通称 The Book）に準拠した、手を動かして理解を確かめるための問題集。Python / TypeScript を普段使いしている人が Rust でつまずきやすそうなポイントをまとめて問題を作成。問題や解説は Claude を活用して作成しています。
+Rust公式チュートリアル「[The Rust Programming Language](https://doc.rust-lang.org/book/)」（通称 The Book）に準拠した、手を動かして理解を確かめるための問題集。Python / TypeScript を普段使いしている人が Rust でつまずきやすそうなポイントをまとめて問題を作成。問題や解説は Claude を活用して作成。
 
 > [!NOTE]
-> これは作者自身がRustを学びながら作っている「学習ノート兼問題集」です。誤りを見つけたら Issue で教えてください。
+> これは作者自身がRustを学びながら作っている「学習ノート兼問題集」。誤りを見つけたら Issue で教えてください。
 
 ## 特徴
 
-- **The Bookに準拠、ただし同じではない構成**：複数の章をまとめたり、他の教材の演習を加えたりしています。章番号はThe Bookと一致しない（下の対応表を参照）
+- **The Bookに準拠、ただし同じではない構成**：複数の章をまとめたり、他の教材の演習を加えたりした構成。章番号はThe Bookと一致しない（下の対応表を参照）
 - **Python / TS との比較つき**：「Pythonならこう、TSならこう、Rustでは…」という観点の解説
 - **実際につまずいた記録**：解説の「よくある間違い」は、初心者がハマりやすいと思ったポイント
 
@@ -20,7 +20,7 @@ Rust公式チュートリアル「[The Rust Programming Language](https://doc.ru
 3. 解き終わったら `ANSWERS.md` の解説を読む
 
 ```bash
-git clone <このリポジトリ>
+git clone https://github.com/knhnd/rust-workbook.git
 cd rust-workbook
 
 # 問題を実行する（問題によってはわざとコンパイルエラーになる）
@@ -40,7 +40,7 @@ rust-workbook/
 
 ## 章立てと進捗
 
-章立ては学習の進行に合わせて調整することがあります。
+章立ては学習の進行に合わせて調整する場合あり。
 
 | 章 | テーマ | The Book（英語版の章番号） | 問題 | 解説 |
 |---|---|---|---|---|
